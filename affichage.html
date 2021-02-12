@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>affichage</title>
+</head>
+<body>
+
+    <fieldset>
+        <legend>Saisir le prix HT et le taux de TVA</legend>
+        <h4>prix hors taxe</h4>
+        <input type="number" name="ht" value="<?php echo $_GET['p'] ?>"/><br>
+        <h4>Taux de TVA en %</h4>
+        <input type="number" name="tva" value="<?php echo $_GET['t'] ?>"/><br>
+        <h4>Montant de tva</h4>
+        <input type="number" name="tva" value="<?php echo $_GET['m'] ?>"/><br>
+        <h4>Prix TTC</h4>
+        <input type="number" name="tva" value="<?php echo $_GET['tt'] ?>"/><br>
+    </fieldset>
+
+
+</body>
+</html>
